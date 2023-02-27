@@ -3,5 +3,9 @@
 require 'pry'
 require_relative '../config/environment'
 
+gold_digger = Song.new(name: 'Gold digger',album: 'Late Registration')
+hello = Song.new(name: "Hello", album: "25")
 binding.pry
 "pls"
+
+
